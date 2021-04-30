@@ -7,9 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7E494C55
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emphasis.ComputerVision.Tests", "Emphasis.ComputerVision.Tests\Emphasis.ComputerVision.Tests.csproj", "{35B425CA-CB33-4310-97E1-74C20B63EF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emphasis.ComputerVision.OpenCL.Canny", "Emphasis.ComputerVision.OpenCL.Canny\Emphasis.ComputerVision.OpenCL.Canny.csproj", "{CE7C19B1-C41C-445A-A28D-B74A30DCD9D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emphasis.ComputerVision.OpenCL.Canny", "Emphasis.ComputerVision.OpenCL.Canny\Emphasis.ComputerVision.OpenCL.Canny.csproj", "{CE7C19B1-C41C-445A-A28D-B74A30DCD9D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emphasis.ComputerVision.OpenCL", "Emphasis.ComputerVision.OpenCL\Emphasis.ComputerVision.OpenCL.csproj", "{82344A9C-C3ED-46CF-83AA-DC27FC78955D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emphasis.ComputerVision.OpenCL", "Emphasis.ComputerVision.OpenCL\Emphasis.ComputerVision.OpenCL.csproj", "{82344A9C-C3ED-46CF-83AA-DC27FC78955D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emphasis.ComputerVision.OpenCL.Resize", "Emphasis.ComputerVision.OpenCL.Resize\Emphasis.ComputerVision.OpenCL.Resize.csproj", "{802588CF-45FD-468B-B0F2-7B954A84849C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emphasis.ComputerVision.OpenCL.NonMaximumSuppression", "Emphasis.ComputerVision.OpenCL.NonMaximumSuppression\Emphasis.ComputerVision.OpenCL.NonMaximumSuppression.csproj", "{2C8BDCE7-D23B-4D83-A422-97C6891FBD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emphasis.ComputerVision.OpenCL.Sobel", "Emphasis.ComputerVision.OpenCL.Sobel\Emphasis.ComputerVision.OpenCL.Sobel.csproj", "{C9257278-4971-4015-B0A6-64929B65BE8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,18 @@ Global
 		{82344A9C-C3ED-46CF-83AA-DC27FC78955D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82344A9C-C3ED-46CF-83AA-DC27FC78955D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82344A9C-C3ED-46CF-83AA-DC27FC78955D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802588CF-45FD-468B-B0F2-7B954A84849C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802588CF-45FD-468B-B0F2-7B954A84849C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802588CF-45FD-468B-B0F2-7B954A84849C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802588CF-45FD-468B-B0F2-7B954A84849C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8BDCE7-D23B-4D83-A422-97C6891FBD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8BDCE7-D23B-4D83-A422-97C6891FBD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8BDCE7-D23B-4D83-A422-97C6891FBD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8BDCE7-D23B-4D83-A422-97C6891FBD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9257278-4971-4015-B0A6-64929B65BE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9257278-4971-4015-B0A6-64929B65BE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9257278-4971-4015-B0A6-64929B65BE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9257278-4971-4015-B0A6-64929B65BE8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
